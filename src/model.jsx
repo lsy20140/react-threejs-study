@@ -7,7 +7,6 @@ const GltfModel = ({ modelPath, scale = 0.5, position = [0, 0, 0] }) => {
   const gltf = useLoader(GLTFLoader, modelPath);
   const [hovered, hover] = useState(false);
 
-  useFrame((state, delta) => (ref.current.rotation.y += 0.003));
   return (
     <>
       <primitive
