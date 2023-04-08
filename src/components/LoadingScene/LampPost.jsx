@@ -13,7 +13,9 @@ export default function LampPost(props) {
       <mesh
         geometry={nodes.Cylinder096_1.geometry}
         material={materials["Yellow.007"]}
-      />
+      >
+        <meshBasicMaterial color={[1.2, 1.2, 0.6]} toneMapped={false} />
+      </mesh>
     </group>
   );
 }

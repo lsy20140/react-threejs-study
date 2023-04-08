@@ -11,7 +11,7 @@ export default function Ankou(props) {
     actions["course_ankou"].play();
     actions["course_charette"].play();
     actions["course_cheval"].play();
-    mixer.timeScale = 2
+    mixer.timeScale = 1.5
   },[])
 
   return (

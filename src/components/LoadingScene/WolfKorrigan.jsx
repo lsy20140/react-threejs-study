@@ -6,7 +6,6 @@ export default function WolfKorrigan(props) {
   const { nodes, materials, animations } = useGLTF('/models/LoadingScene/korrigan-wolf.gltf')
 
   const { actions, mixer } = useAnimations(animations, group);
-  console.log(actions)
   useEffect(() => {
     actions["course_cavalier"].play();
     actions["course_loup"].play();

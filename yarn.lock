@@ -2800,6 +2800,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-three/postprocessing@npm:^2.7.1":
+  version: 2.7.1
+  resolution: "@react-three/postprocessing@npm:2.7.1"
+  dependencies:
+    postprocessing: ^6.30.1
+    react-merge-refs: ^1.1.0
+    screen-space-reflections: 2.5.0
+    three-stdlib: ^2.8.11
+  peerDependencies:
+    "@react-three/fiber": ">=7.0"
+    react: ">=17.0"
+    three: ">=0.136.0"
+  checksum: 0944ce1c9e7356f87ba91434df529bee3d3b3a933ecea17e0e5b162ce36703368b880870d0c130ab0dad4c16c4d2213cd8d31b3601547f5f4e38d07facf82744
+  languageName: node
+  linkType: hard
+
 "@rollup/plugin-babel@npm:^5.2.0":
   version: 5.3.1
   resolution: "@rollup/plugin-babel@npm:5.3.1"
@@ -12223,6 +12239,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postprocessing@npm:^6.30.1":
+  version: 6.30.2
+  resolution: "postprocessing@npm:6.30.2"
+  peerDependencies:
+    three: ">= 0.138.0 < 0.152.0"
+  checksum: abbca976ad5738ccb3a7e7efad7d2c81319fa1c30cc890c20c59b8df36cb5f43ed7af76d8be960664670bb1b04c088a1fb5183faacb2bbe6f0e14318150fa37e
+  languageName: node
+  linkType: hard
+
 "potpack@npm:^1.0.1":
   version: 1.0.2
   resolution: "potpack@npm:1.0.2"
@@ -12750,6 +12775,7 @@ __metadata:
     "@react-spring/three": ^9.7.1
     "@react-three/drei": ^9.57.3
     "@react-three/fiber": ^8.12.0
+    "@react-three/postprocessing": ^2.7.1
     "@testing-library/jest-dom": ^5.14.1
     "@testing-library/react": ^13.0.0
     "@testing-library/user-event": ^13.2.1
@@ -13395,6 +13421,16 @@ __metadata:
     ajv-formats: ^2.1.1
     ajv-keywords: ^5.0.0
   checksum: c843e92fdd1a5c145dbb6ffdae33e501867f9703afac67bdf35a685e49f85b1dcc10ea250033175a64bd9d31f0555bc6785b8359da0c90bcea30cf6dfbb55a8f
+  languageName: node
+  linkType: hard
+
+"screen-space-reflections@npm:2.5.0":
+  version: 2.5.0
+  resolution: "screen-space-reflections@npm:2.5.0"
+  peerDependencies:
+    postprocessing: ">=6.28.0"
+    three: ">=0.141.0"
+  checksum: bbe5f157fd7e4fd6c34d88d43032ae472b51c00bf6b3de9114bd85c1fe2974ac3fd59f00d0a0fc8f8b10f10b338fa5613ced195a62d3d949293a1d98eeee5738
   languageName: node
   linkType: hard
 
@@ -14452,7 +14488,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"three-stdlib@npm:^2.21.8":
+"three-stdlib@npm:^2.21.8, three-stdlib@npm:^2.8.11":
   version: 2.21.8
   resolution: "three-stdlib@npm:2.21.8"
   dependencies:

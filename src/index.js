@@ -4,11 +4,13 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import AppPath from './AppPath';
 import AppLoadingScene from './AppLoadingScene';
+import { Leva } from 'leva';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <AppLoadingScene />
+    <Leva/>
   </React.StrictMode>
 );
 
