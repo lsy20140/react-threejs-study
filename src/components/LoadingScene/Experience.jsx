@@ -4,7 +4,7 @@ import Background from './Background'
 import WolfKorrigan from './WolfKorrigan'
 import HatKorrigan from './HatKorrigan'
 
-export const Experience = () => {
+export default function Experience() {
   return (
     <>
       <OrbitControls 
