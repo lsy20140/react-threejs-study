@@ -5,11 +5,12 @@ import reportWebVitals from './reportWebVitals';
 import AppPath from './AppPath';
 import AppLoadingScene from './AppLoadingScene';
 import { Leva } from 'leva';
+import Cursor from './ChristmasCard/Cursor';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppLoadingScene />
+    <Cursor />
     <Leva/>
   </React.StrictMode>
 );
