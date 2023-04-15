@@ -6,11 +6,12 @@ import AppPath from './AppPath';
 import AppLoadingScene from './AppLoadingScene';
 import { Leva } from 'leva';
 import Cursor from './ChristmasCard/Cursor';
+import AppProduct from './ProductConfigurator/AppProduct';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Cursor />
+    <AppProduct />
     <Leva/>
   </React.StrictMode>
 );
