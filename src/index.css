@@ -20,3 +20,18 @@ code {
 #leva__root{
   display: none;
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+  height: 10%;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  height: 10%;
+}

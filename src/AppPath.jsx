@@ -9,7 +9,7 @@ export default function AppPath() {
       <Canvas>
         {/* <axesHelper scale={100}/> */}
         <color attach="background" arg={["#f59f9f"]}/>
-        <ScrollControls pages={5} damping={1}>
+        <ScrollControls pages={10} damping={1}>
           <Experience/>
         </ScrollControls>
         

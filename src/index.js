@@ -11,7 +11,7 @@ import AppProduct from './ProductConfigurator/AppProduct';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppProduct />
+    <AppPath />
     <Leva/>
   </React.StrictMode>
 );
