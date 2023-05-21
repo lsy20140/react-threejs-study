@@ -7,11 +7,13 @@ import AppLoadingScene from './AppLoadingScene';
 import { Leva } from 'leva';
 import Cursor from './ChristmasCard/Cursor';
 import AppProduct from './ProductConfigurator/AppProduct';
+import BackgroundTest from './components/CurvedPath/BackgroundTest';
+import AppRapierPhysics from './AppRapierPhysics';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppPath />
+    <AppRapierPhysics />
     <Leva/>
   </React.StrictMode>
 );
